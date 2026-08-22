@@ -12,7 +12,7 @@
 |---|---|---|---|
 | [fresh-kitchen-ai-server](https://github.com/fresh-kitchen-team/fresh-kitchen-ai-server) | 2026.03 ~ 2026.06 | AI 서버 전체 단독 설계·구현 | 냉장고 식재료 / 레시피 관리 앱의 AI 백엔드 — 음식 분류·영수증 OCR·냉장고 인식 3개 ML 파이프라인 |
 
-> 한국항공대 소프트웨어학과 3-1 산학프로젝트 교과목 · 6인 팀
+> 3-1 산학프로젝트 교과목 · 6인 팀
 
 `Python` · `PyTorch` · `EfficientNet V2-M` · `FastAPI` · `Google Gemini` · `Document AI`
 
