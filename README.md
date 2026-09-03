@@ -16,9 +16,11 @@
 
 | 프로젝트 | 기간 | 역할 | 한 줄 설명 |
 |---|---|---|---|
-| [ai-service](https://github.com/projectX-Loop/ai-service) | 2026.09 ~ | | |
+| [ai-service](https://github.com/projectX-Loop/ai-service) | 2026.09 ~ | AI 서비스 담당 | 시뮬레이션 결과 JSON을 받아 Gemini로 설명 문장을 만들고, 입력에 없는 숫자나 금지 표현이 있으면 걸러내는 서버 |
 
-> 3-2 · 공모전
+> 3-2 · 공모전 · 3인 팀
+
+`Python` · `FastAPI` · `Pydantic` · `Google Gemini` · `Docker`
 
 ---
 
