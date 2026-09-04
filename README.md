@@ -8,7 +8,7 @@
 
 | 프로젝트 | 기간 | 역할 | 한 줄 설명 |
 |---|---|---|---|
-| [fresh-kitchen-ai-server](https://github.com/fresh-kitchen-team/fresh-kitchen-ai-server) | 2026.03 ~ 2026.06 | AI 서버 전체 단독 설계·구현 | 냉장고 식재료 / 레시피 관리 앱의 AI 백엔드 — 음식 분류·영수증 OCR·냉장고 인식 3개 ML 파이프라인 |
+| [fresh-kitchen-ai-server](https://github.com/fresh-kitchen-team/fresh-kitchen-ai-server) | 2026.03 ~ 2026.06 | AI 서버 전체 단독 설계·구현 | 냉장고 식재료 관리 앱의 AI 백엔드. 한국 식재료 70종 데이터셋을 직접 수집해 EfficientNet V2-M을 파인튜닝한 분류 모델(검증 정확도 96.6%), 저신뢰 시 Gemini 폴백, 영수증 OCR·냉장고 인식 파이프라인 |
 
 > 3-1 산학프로젝트 교과목 · 6인 팀
 
