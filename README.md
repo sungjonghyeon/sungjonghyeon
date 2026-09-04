@@ -16,11 +16,11 @@
 
 | 프로젝트 | 기간 | 역할 | 한 줄 설명 |
 |---|---|---|---|
-| [ai-service](https://github.com/projectX-Loop/ai-service) | 2026.09 ~ | AI 서비스 담당 | 시뮬레이션 결과 JSON을 받아 Gemini로 설명 문장을 만들고, 입력에 없는 숫자나 금지 표현이 있으면 걸러내는 서버 |
+| [ai-service](https://github.com/projectX-Loop/ai-service) | 2026.09 ~ | AI 서비스 담당 | 리밸런싱 시뮬레이션 결과를 Gemini가 설명하게 하고, 결과에 없는 숫자·투자 권유 표현을 검증기로 걸러내는 FastAPI 서버. 계산 엔진 API, 용어 설명 RAG(pgvector), Spring 연동 API 계약(OpenAPI)까지 담당 |
 
 > 3-2 · [2026 금융 AI Challenge](https://linkareer.com/activity/334985) 공모전 · 3인 팀
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?style=flat&logo=openapiinitiative&logoColor=white)
 
 ---
 
