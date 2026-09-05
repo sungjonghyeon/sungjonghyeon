@@ -18,15 +18,17 @@
 
 #### 📈 Loop — 리밸런싱 주기 비교 + AI 설명
 
-> 3-2 · [2026 금융 AI Challenge](https://linkareer.com/activity/334985) 공모전 · 3인 팀 · 2026.09 ~ · **역할: AI 서비스 · 프론트**
+> 3-2 · [2026 금융 AI Challenge](https://linkareer.com/activity/334985) 공모전 · 3인 팀 · 2026.09 ~ · **역할: AI 서비스 · 프론트 · 백엔드**
 
 | 레포 | 설명 |
 |---|---|
 | [ai‑service](https://github.com/projectX-Loop/ai-service) | 시뮬레이션 결과를 Gemini가 설명하게 하고, 결과에 없는 숫자·투자 권유 표현을 검증기로 걸러내는 FastAPI 서버. 계산 엔진 API, 용어 설명 RAG(pgvector), Spring 연동 API 계약(OpenAPI)까지 담당 |
 | [frontend](https://github.com/projectX-Loop/frontend) | 웹 화면 3개(입력 폼 → 결과 → AI 설명 패널). 공개 API의 OpenAPI에서 타입을 생성해 서버 계약과 어긋나지 않게 구성 |
+| [projectX‑Backend](https://github.com/projectX-Loop/projectX-Backend) | 계획·자산 데이터를 저장하고 ai-service와 연동하는 Spring Boot 오케스트레이션 서버. AiServiceClient(RestClient)로 계산·RAG API를 호출해 계획 설명·질의응답(KAN-23/24)을 생성·저장하고, 팀 공통 에러 응답 규격(KAN-4)을 구현 |
 
 <sub>ai-service</sub>&nbsp; ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?style=flat&logo=openapiinitiative&logoColor=white)
 <br><sub>frontend</sub>&nbsp; ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat&logo=chartdotjs&logoColor=white)
+<br><sub>projectX-Backend</sub>&nbsp; ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat&logo=gradle&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=flat&logo=flyway&logoColor=white)
 
 ---
 
